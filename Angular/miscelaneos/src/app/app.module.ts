@@ -8,6 +8,9 @@ import { NgStyleComponent } from './components/ng-style/ng-style.component';
 import { CssComponent } from './components/css/css.component';
 import { APP_ROUTING } from './app.routes';
 import { ClasesComponent } from './components/clases/clases.component';
+import { ResaltadoDirective } from './diretives/resaltado.directive';
+import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
+import { UsuarioComponent } from './components/usuario/usuario.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ClasesComponent } from './components/clases/clases.component';
     NavbarComponent,
     NgStyleComponent,
     CssComponent,
-    ClasesComponent
+    ClasesComponent,
+    ResaltadoDirective,
+    NgSwitchComponent,
+    UsuarioComponent
   ],
   imports: [
     BrowserModule,
